@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("../images/530912_watercolor-wallpapers_2880x1800_h.jpg");
+    background-size: cover;
+    background-position: center ;   
+    background-repeat: no-repeat;
+    height: 100%;
+}
+main{
+    min-height: 100vh;
+
+}
+
+
+.title h1{
+    font-family: 'Lobster', sans-serif;
+color: #00566a;
+}
+.bookmarker{
+    font-size: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right,#1eb18c, #63a0ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.warning-box{
+    background-color: #0007;
+}
+.icon{
+    font-size:30px;
+    color:red
+}
+
+.closeBtn{
+right: 0;
+}
+.card{
+    background-color:rgb(255 255 255 / 71%) !important;
+}
+
+.paragraph{
+  top: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(10%);
+}
+
+.sBtn{
+    background-color: #00566a !important;
+}
+
+/* @media only screen and (max-width: 600px){
+    
+    .card{
+        width: 100%;
+    }
+} */
+
+
+.visitbtn{
+    background-color:#2c8c82 !important;
+}
+
+
+
+@keyframes bookmarker {
+    0%   { transform: scale(1,1) translateY(0); }
+    10%  { transform: scale(1.1,.9) translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-55px);}
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    58%  { transform: scale(1,1) translateY(-7px); }
+    65%  { transform: scale(1,1) translateY(0);}
+    100% { transform: scale(1,1) translateY(0);}
+}
+
+.a {
+animation: bookmarker 2s ease ;
+}
+
+.b {
+animation: bookmarker 2s ease  .1s;
+}
+
+.c {
+animation: bookmarker 1s ease  .2s;
+}
+
+.d {
+animation: bookmarker 1s ease  .3s;
+}
+
+.e {
+animation: bookmarker 1s ease  .4s;
+}
+
+.f {
+animation: bookmarker 1s ease  .5s;
+}
+.g {
+animation: bookmarker 1s ease  .6s;
+}
+.h {
+animation: bookmarker 1s ease  .7s;
+}
+.i {
+animation: bookmarker 1s ease  .8s;
+}
+.j {
+animation: bookmarker 1s ease  .9s;
+}
+
+
+.name{
+    color: #00566a;
+  font-family:'Kalnia', serif;
+    font-size: 30px;
+}

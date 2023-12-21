@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bookmark</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+  </head>
+
+  <body>
+    <main class="py-5 position-relative">
+      <div class="container w-75">
+        <div
+          class="title justify-content-center align-items-center text-center py-2"
+        >
+          <h1 class="mb-5 bookmarker text-center">
+            <div class="a">B</div>
+            <div class="b">O</div>
+            <div class="c">O</div>
+            <div class="d">K</div>
+            <div class="e">M</div>
+            <div class="f">A</div>
+            <div class="g">R</div>
+            <div class="h">K</div>
+            <div class="i">E</div>
+            <div class="j">R</div>
+          </h1>
+          <h2 class="mb-5">
+            <i class="fa-solid fa-bookmark"></i> Bookmark your favorite sites
+            <i class="fa-solid fa-bookmark"></i>
+          </h2>
+        </div>
+        <div class="form-group mb-4">
+          <label for="sitename" class="mb-3">
+            <i class="fa-solid fa-book"></i> Site Name</label
+          >
+          <input
+            type="text"
+            class="form-control shadow-none"
+            id="sitename"
+            placeholder="Bookmark Name"
+          />
+        </div>
+        <div class="form-group mb-4">
+          <label for="siteURL" class="mb-3">
+            <i class="fa-solid fa-link"></i> Site URL</label
+          >
+          <input
+            type="text"
+            class="form-control shadow-none"
+            id="siteURL"
+            placeholder="Website URL"
+          />
+        </div>
+        <div
+          class="text-center d-flex justify-content-center align-items-center mb-5"
+        >
+          <button class="btn sBtn px-5 py-2 text-white" id="submitBtn">
+            Submit
+          </button>
+        </div>
+
+        <div class="container">
+          <div class="row" id="row"></div>
+        </div>
+            <div
+              class="warning-box position-absolute start-0 top-0 w-100 h-100 d-flex justify-content-center align-items-center d-none"
+            >
+              <div class="content bg-white p-4 rounded-2 shadow-lg">
+                <header class="d-flex justify-content-between mb-2">
+                  <i class="fa-solid fa-triangle-exclamation icon"></i>
+                  <button class="btn border-0 closeBtn" id="closeBtn">
+                    <i class="fa-solid fa-xmark close fs-3"></i>
+                  </button>
+                </header>
+                <p class="pb-1 fw-bold">
+                  Site Name or Url is not valid, Please follow the rules below :
+                </p>
+                <ul>
+                  <li class="fs-5">
+                    Site name must contain at least 3 characters
+                  </li>
+                  <li class="fs-5">Site URL must be a valid one</li>
+                </ul>
+              </div>
+            </div>
+      </div>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
